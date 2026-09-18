@@ -129,62 +129,6 @@ The project uses:
 
 All records are maintained inside the `data` directory using text files.
 
-## 📂 Project Structure
-
-```text
-RailReservationSystem/
-
-├── src/
-│   ├── Main.java
-│   ├── model/
-│   │   ├── Person.java
-│   │   ├── User.java
-│   │   ├── Passenger.java
-│   │   ├── Train.java
-│   │   └── Ticket.java
-│   │
-│   ├── service/
-│   │   ├── ReservationSystem.java
-│   │   ├── TrainService.java
-│   │   ├── TicketService.java
-│   │   └── UserService.java
-│   │
-│   ├── exception/
-│   │   ├── TrainNotFoundException.java
-│   │   ├── SeatNotAvailableException.java
-│   │   └── TicketNotFoundException.java
-│   │
-│   └── util/
-│       ├── FileManager.java
-│       ├── InputHelper.java
-│       └── PNRGenerator.java
-│
-├── data/
-│   ├── users.txt
-│   ├── trains.txt
-│   ├── tickets.txt
-│   └── passengers.txt
-│
-└── README.md
-```
-
-## 📦 Package Organization
-
-### `model`
-
-Contains the main entities such as `Person`, `User`, `Passenger`, `Train`, and `Ticket`.
-
-### `service`
-
-Contains the main business logic for user management, train management, ticket booking, and reservations.
-
-### `exception`
-
-Contains custom exceptions used to handle railway-specific errors.
-
-### `util`
-
-Contains utility classes for file management, input handling, and PNR generation.
 
 ## 💻 Technologies Used
 
