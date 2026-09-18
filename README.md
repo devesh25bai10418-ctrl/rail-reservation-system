@@ -127,7 +127,6 @@ The project uses:
 * `BufferedReader`
 * `BufferedWriter`
 
-All records are maintained inside the `data` directory using text files.
 
 
 ## 💻 Technologies Used
@@ -144,7 +143,7 @@ All records are maintained inside the `data` directory using text files.
 
 ## 🚀 How to Run
 
-Open the terminal inside the `src` directory and compile the project:
+Open the terminal inside directory and compile the project:
 
 ```text
 javac Main.java model\*.java service\*.java exception\*.java util\*.java
